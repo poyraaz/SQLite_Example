@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Test.");
         SQLiteConnector.connectdb("db.db");
         SQLiteConnector.createTable("db.db");
+        SQLiteConnector.insert("puraz", 2);
         SQLiteConnector.readTable("db.db");
     }
 
